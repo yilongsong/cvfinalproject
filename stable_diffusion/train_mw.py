@@ -58,7 +58,7 @@ def main(args):
         valid_batch_size =32,
         gradient_accumulate_every = 1,
         num_samples=valid_n, 
-        results_folder ='../results/mw',
+        results_folder ='../results',
         fp16 =True,
         amp=True,
     )
