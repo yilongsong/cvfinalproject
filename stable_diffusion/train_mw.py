@@ -16,7 +16,7 @@ def main(args):
     else:
         train_set = SequentialDatasetv2(
             sample_per_seq=sample_per_seq, 
-            path="../datasets/metaworld", 
+            path="../datasets/metaworld/metaworld_dataset/assembly/corner/000",
             target_size=target_size,
             randomcrop=True
         )
